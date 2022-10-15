@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    border : 1px solid black;
+    background-color: #fff;
+}
+.container:hover {
+    background-color: #FF731D;
+    transition: all 0.5s ease-in-out;
+}
+
+.game-window
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 80vh; */
+    border : 1px solid black;
+    background-color: #fff;
+}
+
+.game-window:hover {
+    background-color: #FF731D;
+    transition: all 0.5s ease-in-out;
+}
+
+#check{
+    border: none;
+    background-color: #FF731D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#check:hover{
+    background-color: #fff;
+    color: #FF731D;
+    transition: all 0.5s ease-in-out;
+}
+
+#check:active{
+    background-color: #fff;
+    color: #FF731D;
+    transition: all 0.5s ease-in-out;
+}
+
+#guessing {
+    border: none;
+    outline: none;
+    /* background-color: #FF731D; */
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#reset{
+    border: none;
+    background-color: #FF731D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#reset:hover{
+    background-color: #fff;
+    color: #FF731D;
+    transition: all 0.5s ease-in-out;
+}
+
+#reset:active{
+    background-color: #fff;
+    color: #FF731D;
+    transition: all 0.5s ease-in-out;
+}
